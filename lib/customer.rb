@@ -1,4 +1,4 @@
-# ./lib/meal.rb
+require_relative './lib/meal.rb'
 
 class Customer < Meal
   attr_accessor :name, :age

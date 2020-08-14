@@ -1,6 +1,6 @@
 require_relative './lib/meal.rb'
 
-class Customer
+class Customer < Meal
   attr_accessor :name, :age
 
 @@all = []

@@ -1,3 +1,4 @@
+require_relative './lib/meal.rb'
 class Waiter
   attr_accessor :name, :yrs_experience
 

@@ -1,6 +1,6 @@
-#require_relative './lib/meal.rb'
 
-class Waiter < Meal
+
+class Waiter
   attr_accessor :name, :yrs_experience
 
  @@all = []
